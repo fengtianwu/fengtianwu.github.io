@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Blog</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 Aug 2024 13:44:13 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>用hugo写blog</title>
+      <link>http://localhost:1313/posts/%E7%94%A8hugo%E5%86%99blog/</link>
+      <pubDate>Mon, 05 Aug 2024 13:44:13 +0800</pubDate>
+      <guid>http://localhost:1313/posts/%E7%94%A8hugo%E5%86%99blog/</guid>
+      <description>安装hugo brew install hugo hugo version 新建一个场子 hugo new site fengtianwu.github.io 克隆一个主题 git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke 配置文件中添加主题 echo &amp;#34;theme = &amp;#39;ananke&amp;#39;&amp;#34; &amp;gt;&amp;gt; hugo.toml 启动服务器, 并根据提示在本地浏览 hugo server </description>
+    </item>
+  </channel>
+</rss>
