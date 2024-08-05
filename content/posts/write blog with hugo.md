@@ -4,6 +4,8 @@ date = 2024-08-05T13:44:13+08:00
 draft = false
 +++
 
+# 在本地计算机上
+
 1. 安装hugo
 ```
 brew install hugo
@@ -35,14 +37,29 @@ echo "theme = 'ananke'" >> hugo.toml
 hugo server -D
 ```
 
-6. 贴一篇博文, 并推到github上
+6. 写一篇博文, 新建markdown文件, 并加上文件头.
 ```
 hugo new content content/posts/用hugo写blog.md
-
-vi content/posts/用hugo写blog.md
-
-git add content/posts/用hugo写blog.md
-git commit
-git push
 ```
+文件头长这样:
+```
++++
+title = '用hugo写blog'
+date = 2024-08-05T13:44:13+08:00
+draft = true
++++
+
+```
+7. 如果要推到github上, 博文的头部draft的值改为false.
+```
++++
+title = '用hugo写blog'
+date = 2024-08-05T13:44:13+08:00
+draft = false
++++
+
+```
+
+# [搞到github上](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
+
 
