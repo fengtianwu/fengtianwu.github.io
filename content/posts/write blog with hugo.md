@@ -1,7 +1,7 @@
 +++
 title = '用hugo写blog'
 date = 2024-08-05T13:44:13+08:00
-draft = true
+draft = false
 +++
 
 1. 安装hugo
