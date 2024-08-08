@@ -5,9 +5,10 @@ date = 2024-08-05T13:44:13+08:00
 draft = false
 +++
 
-# Development on local
+# On local
 
 1. install hugo
+
 ```
 brew install hugo
 hugo version

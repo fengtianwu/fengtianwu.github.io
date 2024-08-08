@@ -5,13 +5,11 @@ draft = false
 +++
 
 
-# Send mail on Local
-
-## Enveriment 
+# Enveriment 
 - chip mac M2
 - macOS Sonoma 14.6
 
-## Postfix on boot and restart postfix
+# Postfix on boot and restart postfix
 
 1. patch
 
@@ -64,7 +62,7 @@ $ sudo launchctl load /Library/LaunchDaemons/org.postfix.custom.plist
 $ sudo launchctl list | grep org.postfix
 ```
 
-## Send mail via Gmail SMTP
+# Send mail via Gmail SMTP
 1. get app password of gmail
 
 2. prepare  sasl_passwd.db file
@@ -120,7 +118,7 @@ $ sudo launchctl unload /Library/LaunchDaemons/org.postfix.custom.plist
 $ sudo launchctl load /Library/LaunchDaemons/org.postfix.custom.plist
 ```
 
-## some useful command
+# some useful command
 1. send mail
 
 ```
