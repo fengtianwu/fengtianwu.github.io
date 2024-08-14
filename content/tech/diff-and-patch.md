@@ -17,3 +17,8 @@ $ git diff commit-id old > old.patch
 ```
 $ patch old old.patch 
 ```
+
+3. git archive
+```
+$ git archive HEAD -o a.tar.gz
+```
