@@ -57,3 +57,22 @@ Function returns list of [x,y] pairs
 
 phase source & mind
 
+
+- vscode key repeating
+```
+# For VS Code
+$ defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
+
+# For VS Code Insider
+$ defaults write com.microsoft.VSCodeInsiders ApplePressAndHoldEnabled -bool false
+
+# For VS Codium
+$ defaults write com.vscodium ApplePressAndHoldEnabled -bool false
+
+# For VS Codium Exploration users
+$ defaults write com.microsoft.VSCodeExploration ApplePressAndHoldEnabled -bool false
+
+# If necessary, reset global default
+$ defaults delete -g ApplePressAndHoldEnabled
+```
+
