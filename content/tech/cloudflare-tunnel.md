@@ -1,7 +1,7 @@
 +++
 title = 'Cloudflare Tunnel'
 date = 2024-08-08T09:13:04+08:00
-draft = true
+draft = false
 +++
 
 # install cloudflare

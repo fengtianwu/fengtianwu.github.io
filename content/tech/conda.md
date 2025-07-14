@@ -1,7 +1,7 @@
 +++
 title = 'Conda'
 date = 2024-08-15T14:24:24+08:00
-draft = true
+draft = false
 +++
 
 1. new env
